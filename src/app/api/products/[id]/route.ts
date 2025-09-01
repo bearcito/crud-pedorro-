@@ -1,7 +1,7 @@
 // Contenido para: src/app/api/products/[id]/route.ts
 
 import { NextResponse } from 'next/server';
-import { getWooCommerceApi } from '@/'
+import { getWooCommerceApi } from '@/app/lib/woocommerce';
 
 interface Params {
   params: {
